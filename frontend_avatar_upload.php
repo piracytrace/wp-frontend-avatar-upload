@@ -34,4 +34,4 @@ define('FRONTEND_AVATAR_UPLOAD_PLUGIN_PATH', plugin_dir_path( __FILE__ ));
 define('FRONTEND_AVATAR_UPLOAD_PLUGIN_FILE',  'frontend_avatar_upload.php');
 define('FRONTEND_AVATAR_UPLOAD_DEV_MODE', true);
 
-new FrontendAvatarUpload\Frontend_Avatar_Upload();
+new FrontendAvatarUpload\Frontend_Avatar_Upload;
