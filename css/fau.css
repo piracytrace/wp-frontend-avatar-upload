@@ -1,0 +1,11 @@
+#profile_avatar{
+  text-align: center;
+}
+
+#profile_avatar img{
+  margin: auto;
+}
+
+.screen-reader-text{
+  display:none;
+}
