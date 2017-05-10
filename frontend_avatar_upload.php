@@ -34,7 +34,6 @@ function frontend_avatar_upload_autoload($class) {
 
     $relative_class = substr($class, $len);
     $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
-    // die($file);
     if (file_exists($file)) {
         require_once $file;
     }
