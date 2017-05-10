@@ -32,9 +32,10 @@ class Shortcode{
 			require 'Views/frontend_avatar_upload_view.php';
 	}
 
-	function show_current_user_attachments( $query = array() ) {
+	public function show_current_useir_attachments( $query = array() ) {
 		$roles = wp_get_current_user()->roles;
 		if(in_array('subscriber',$roles)){
+
 	    $user_id = get_current_user_id();
 	    if( $user_id ) {
 	        $query['author'] = $user_id;

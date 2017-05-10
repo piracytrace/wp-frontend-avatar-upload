@@ -14,7 +14,7 @@ class Frontend_Avatar_Upload{
 
 	public function plugin_activated()
 	{
-    
+
 	}
 
 	public function plugin_deactivated()

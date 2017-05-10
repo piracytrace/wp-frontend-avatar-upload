@@ -14,7 +14,6 @@
   <div class="text-center">
     <h5><?php echo current_user_first_name_and_last_name()?></h5>
   </div>
-  <!-- <small><a class="avatar_uploader" href="javascript:void(0)">Change Avatar</a> | <a class="" href="<?php echo site_url()?>/logout">Logout</a></small> -->
-  <small><a class="avatar_uploader" href="javascript:void(0)">Change Avatar</a> | <a class="" href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></small>
+  <small><a class="avatar_uploader" href="javascript:void(0)">Change Avatar</a> | <a class="" href="<?php echo site_url()?>/logout">Logout</a></small>
 
 </div>

@@ -2,10 +2,11 @@
   text-align: center;
 }
 
-#profile_avatar img{
-  margin: auto;
-}
-
 .screen-reader-text{
   display:none;
+}
+
+#dashboard #left-sidebar #profile-photo img.img-circle{
+  height:115px;
+  width:115px;
 }
