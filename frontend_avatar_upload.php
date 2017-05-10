@@ -19,7 +19,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-
+ 
 spl_autoload_register( 'frontend_avatar_upload_autoload' );
 
 function frontend_avatar_upload_autoload($class) {
