@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
      }
      $.post(ajax_object.ajax_url, data, function(response){
        $(".avatar").attr('src',attachment.url);
+       $(".avatar").attr('srcset',attachment.url);
      });
    });
    // Open the uploader dialog
