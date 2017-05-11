@@ -3,7 +3,7 @@
  * Plugin Name: Frontend Avatar Upload
  * Plugin URI: ''
  * Description: Plugin to place a avatar and change avatar of a currently  logged in user in a wordpress frontend by using a shortcode
- * Version: 0.9.1
+ * Version: 0.9.3
  * Author: Jose Alfonso del Callar
  * Author URI:
  * Text Domain:
