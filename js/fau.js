@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-
+  // alert('test');
   var mediaUploader;
 
   $(".avatar_uploader").click(function(e){

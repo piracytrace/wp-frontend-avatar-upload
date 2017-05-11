@@ -5,9 +5,16 @@ class Shortcode{
 
 	public function __construct(){
 
-		add_action( 'wp_ajax_avatar_action', array($this,'avatar_upload_action_callback') );
+		if(is_admin()){
 
-		add_filter( 'ajax_query_attachments_args', array($this,'show_current_user_attachments'), 10, 1 );
+			add_action( 'wp_ajax_avatar_action', array($this,'avatar_upload_action_callback') );
+
+			add_filter( 'ajax_query_attachments_args', array($this,'show_current_user_attachments'), 10, 1 );
+
+
+
+		}
+
 
 		add_shortcode( 'frontend_avatar_upload', array( $this, 'frontend_avatar_upload_view' ) );
 
